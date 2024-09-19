@@ -10,4 +10,3 @@ WITH tb1 as(
     from {{source('datafeed_Shared_schema','STG_ORDER')}})
     select * From tb1;
 
-)
