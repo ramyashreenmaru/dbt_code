@@ -6,8 +6,8 @@ sources:
       schema: stage_layer
       tables:
             
-           - name: stg_customerdata
+           - name: stg_customer_data
             
-           - name: stg_payments 
+           - name: STG_PAYMENTS 
             
-           - name: stg_orders
+           - name: STG_ORDER
