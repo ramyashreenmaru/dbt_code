@@ -7,6 +7,6 @@ WITH tb1 as(
     order_Date,
     user_id
 
-    from {{source('datafeed_Shared_schema','STG_ORDER')}})
+    from {{source('datafeed_Shared_schema','stg_order')}})
     select * From tb1;
 
