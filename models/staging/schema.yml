@@ -3,7 +3,7 @@ version: 2
 sources:
     - name: datafeed_shared_schema
       database:  "{{('dbt_db')}}"
-      schema: stage_layer
+      schema: STAGE_LAYER
       tables:
             
            - name: stg_customer_data
